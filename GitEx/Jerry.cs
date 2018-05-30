@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitEx
 {
-    class Program
+    class Jerry
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello Ali!");
-        }
+        static public void Hello(string name) => Console.WriteLine($"hi {name}!");
     }
 }
